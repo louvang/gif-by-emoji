@@ -11,6 +11,10 @@ const getGif = (keyword) =>
     })
     .then(function (response) {
       img.src = response.data.images.original.url;
+    })
+    .catch(function (error) {
+      img.src = 'img/error.gif';
+      console.log(error);
     });
 
 emojiCells.forEach((emoji) => {
