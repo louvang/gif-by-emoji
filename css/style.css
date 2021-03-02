@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;600&display=swap");
+body {
+  margin: 0;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "IBM Plex Mono", sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #ffa304;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 500px;
+}
+
+.logo h1 {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.gradient-top-border {
+  height: 6px;
+  background: -webkit-gradient(linear, left top, right top, from(#ff2600), color-stop(15%, #ffa304), color-stop(33%, #7ed765), color-stop(50%, #77ceb3), color-stop(68%, #2c8bec), color-stop(85%, #9062d4), to(#e4004c));
+  background: linear-gradient(90deg, #ff2600 0%, #ffa304 15%, #7ed765 33%, #77ceb3 50%, #2c8bec 68%, #9062d4 85%, #e4004c 100%);
+  border-radius: 10px 10px 0 0;
+}
+
+.gradient-bottom-border {
+  height: 6px;
+  margin-bottom: 2rem;
+  background: -webkit-gradient(linear, left top, right top, from(#ff2600), color-stop(15%, #ffa304), color-stop(33%, #7ed765), color-stop(50%, #77ceb3), color-stop(68%, #2c8bec), color-stop(85%, #9062d4), to(#e4004c));
+  background: linear-gradient(90deg, #ff2600 0%, #ffa304 15%, #7ed765 33%, #77ceb3 50%, #2c8bec 68%, #9062d4 85%, #e4004c 100%);
+  border-radius: 0 0 10px 10px;
+}
+
+.gif-container img {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+
+.meaning-container {
+  padding: 1rem;
+  background-color: #111;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.emoji-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 4rem;
+}
+
+.emoji-container .emoji-cell {
+  width: 25%;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.emoji-container .emoji-cell:hover {
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.emoji-container .inactive-marker {
+  height: 6px;
+}
+
+.emoji-container .active-marker {
+  height: 6px;
+  background: -webkit-gradient(linear, left top, right top, from(#ff2600), color-stop(15%, #ffa304), color-stop(33%, #7ed765), color-stop(50%, #77ceb3), color-stop(68%, #2c8bec), color-stop(85%, #9062d4), to(#e4004c));
+  background: linear-gradient(90deg, #ff2600 0%, #ffa304 15%, #7ed765 33%, #77ceb3 50%, #2c8bec 68%, #9062d4 85%, #e4004c 100%);
+  border-radius: 0 0 10px 10px;
+}
+
+footer {
+  color: #ccc;
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
