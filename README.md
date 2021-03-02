@@ -2,7 +2,7 @@
 
 A webapp that generates a random gif based on the emoji selected by the user.
 
-<p align="center"><a href="https://louvang.github.io/gif-by-emoji/" target="_blank"><img src="https://louvang.github.io/gif-by-emoji/preview.png" alt="Gif By Emoji Preview" width="750px" /></a></p>
+<p align="center"><a href="https://louvang.github.io/gif-by-emoji/" target="_blank"><img src="https://louvang.github.io/gif-by-emoji/img/preview.png" alt="Gif By Emoji Preview" width="750px" /></a></p>
 
 ## About Code
 
