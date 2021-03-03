@@ -23,13 +23,16 @@ emojiCells.forEach((emoji) => {
     const otherActiveMarker = document.querySelector('.active-marker');
     const thisActiveMarker = document.querySelector(`#${emotion} .inactive-marker`);
 
-    if (otherActiveMarker) {
+    if (otherActiveMarker && thisActiveMarker) {
       otherActiveMarker.classList.add('inactive-marker');
       otherActiveMarker.classList.remove('active-marker');
     }
 
-    thisActiveMarker.classList.add('active-marker');
-    thisActiveMarker.classList.remove('inactive-marker');
+    if (thisActiveMarker) {
+      thisActiveMarker.classList.add('active-marker');
+      thisActiveMarker.classList.remove('inactive-marker');
+    }
+
     meaningContainer.textContent = `"${emotion}"`;
     getGif(emotion);
   });
